@@ -1,10 +1,10 @@
-person_dict={'first_name':'Hamza','last_name':'Khan',
-            'age':20,'city':'Karachi'}
+person_dict={'first_name':'Muhammad','last_name':'Hashim',
+            'age':28,'city':'Karachi'}
 
 for key, value in person_dict.items():
     print(key,":",value)
 print("\nAdd Qualification \n")
-person_dict["qualification"]="Intermediate"
+person_dict["qualification"]="Graduate"
 print('qualification :',person_dict["qualification"])
 
 print("\nUpdate Qualification \n")
